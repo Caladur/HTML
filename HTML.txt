@@ -1,0 +1,40 @@
+Some HTML elements will display correctly, even if you forget the end tag like p. However, never rely on this! Unexpected results and errors may occur if you forget the end tag!
+HTML is not case sensitive.
+The HTML standard does not require lowercase tags, but W3C recommends lowercase in HTML, and demands lowercase for stricter document types like XHTML.
+The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to.
+The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed.
+1. Absolute URL - Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
+2. Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".
+Tip: It is almost always best to use relative URLs. They will not break if you change domain.
+The required alt attribute for the <img> tag specifies an alternate text for an image, if the image for some reason cannot be displayed.
+The title attribute defines some extra information about an element.
+The value of the title attribute will be displayed as a tooltip when you mouse over the element.
+Always use lowercase attributes.
+Double quotes around attribute values are the most common in HTML, but single quotes can also be used.
+In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes.
+The HTML <pre> element defines preformatted text.
+The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks.
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+The HTML <sub> element defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O.
+The HTML <sup> element defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes.
+<address> - Defines contact information for the author/owner of a document
+<bdo> - Defines the text direction
+<blockquote> - Defines a section that is quoted from another source
+<cite> - Defines the title of a work
+<q> - Defines a short inline quotation
+<abbr>	Defines an abbreviation or acronym
+<address>	Defines contact information for the author/owner of a document
+<bdo>	Defines the text direction
+<blockquote>	Defines a section that is quoted from another source
+<cite>	Defines the title of a work
+<q>	Defines a short inline quotation 
+
